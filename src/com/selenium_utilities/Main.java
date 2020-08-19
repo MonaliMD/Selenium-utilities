@@ -23,10 +23,13 @@ public class Main {
     //text.sendKeys("abc");
         radio1.click();
         Thread.sleep(5000);
+        System.out.println("Radio button option1 selected");
         radio2.click();
         Thread.sleep(5000);
+        System.out.println("Radio button option2 selected");
         radio3.click();
         Thread.sleep(5000);
+        System.out.println("Radio button option2 selected");
         driver.quit();
 
     }
