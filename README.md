@@ -23,6 +23,10 @@ The latest HTML5 standard allows the <a> tags to be placed inside and outside of
           <span>Outside a block level tag</span>
         </div>
       </a>
-    </body>```
+   </body>
+ ```
 
-
+Nagavidate back to 
+```bash
+driver.navigate().back();
+```
