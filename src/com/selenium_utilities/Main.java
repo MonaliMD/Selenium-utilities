@@ -20,11 +20,13 @@ public class Main {
         Select dropDown1 = new Select(driver.findElement(By.id("SearchType")));
 
 
-        //dropDown1.selectByVisibleText("Books");
+        dropDown1.selectByVisibleText("Computers");
+        Thread.sleep(3000);
         dropDown1.selectByValue("193");
-//        dropDown1.selectByIndex(5);
+        Thread.sleep(3000);
+        dropDown1.selectByIndex(8);
 
         Thread.sleep(3000);
-        driver.quit();
+        //driver.quit();
     }
 }
