@@ -33,3 +33,5 @@ driver.navigate().back();
 
 # Download files
 WebDriver has no capability to access the Download dialog boxes presented by browsers when you click on a download link or button. However, we can bypass these dialog boxes using a separate program called "wget".
+
+<b>Wget</b> is a small and easy-to-use command-line program used to automate downloads. Basically, we will access Wget from our WebDriver script to perform the download process.
