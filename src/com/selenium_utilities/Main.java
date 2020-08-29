@@ -29,12 +29,16 @@ public class Main {
 
         String alertMessage = driver.switchTo().alert().getText();
 
+        // If there is a input element
+        //String alertMessage= driver.switchTo().alert().getText();
+
         //Display alert message
         System.out.println(alertMessage);
         Thread.sleep(3000);
 
         //accept alert
         alert.accept();
+        //alert.dismiss();
 
 
     }
